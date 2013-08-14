@@ -27,8 +27,6 @@ page.onLoadFinished = function (status) {
 console.log("Opening " + config.url);
 
 page.open(config.url, function (status) {
-    page.evaluate() {
-    });
     phantom.exit();
 });
 
