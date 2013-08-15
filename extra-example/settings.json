@@ -1,0 +1,7 @@
+{
+    "host": "http://localhost/",
+    "credentials": {
+        "username": "username",
+        "password": "password"
+    }
+}
