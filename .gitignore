@@ -1,3 +1,4 @@
+# based on https://github.com/github/gitignore
 lib-cov
 *.seed
 *.log
@@ -6,9 +7,35 @@ lib-cov
 *.out
 *.pid
 *.gz
-
 pids
 logs
 results
-
+# nodejs
+node_modules
+pids
 npm-debug.log
+# build
+build/api/xml
+build/api/docs
+build/code-browser
+build/coverage
+build/logs
+build/pdepend
+static/build
+cache.properties
+.settings
+.project
+.buildpath
+# Mac
+.DS_Store
+.Spotlight-V100
+.Trashes
+# KDE
+.directory
+# Vim
+.*.sw[a-z]
+*.un~
+Session.vim
+/nbproject
+.idea
+
