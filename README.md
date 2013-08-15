@@ -12,3 +12,6 @@ Para rodar:
 2. `phantomjs g1.js`
 3. `phantomjs google.js`
 4. `casperjs test wordpress.js --username=your-user --password=your-pass --host=your-host`
+
+## Exemplo extra
+Usado em um caso real. Modificando um pouco pode servir para alguém, por isso foi colocado aqui.
